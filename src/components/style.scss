@@ -45,14 +45,25 @@
       margin: 40px auto;
       border: 1px solid;
       padding: 20px;
+      //       background-color: rgba(27, 26, 26, 0.835);
+      border-radius: 10px;
+      box-shadow: rgba(48, 130, 202, 0.48) 6px 2px 16px 0px,
+        rgba(204, 59, 59, 0.8) -6px -2px 16px 0px;
     }
   }
 }
 
 tr {
   border: 1px solid black;
-
   font-size: 1.4rem;
-  background-color: rgba(105, 97, 97, 0.308);
+
   color: rgba(0, 0, 0, 0.815);
+  td {
+    color: rgb(139, 46, 46);
+    background-color: rgba(179, 172, 172, 0.589);
+    border-radius: 10px;
+    border: 1px solid rgb(161, 104, 104);
+    padding: 5px;
+    text-align: start;
+  }
 }
